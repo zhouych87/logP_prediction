@@ -7,7 +7,7 @@ import libset
 import pickle
 from pathlib import Path
 from io import StringIO
-from sklearn.metrics import r2_score,mean_absolute_error
+from sklearn.metrics import r2_score,mean_absolute_error,mean_squared_error
 import sys
 
 ndecimal=0
@@ -73,9 +73,9 @@ print(y_predicted)
 
 r2 = r2_score(y, y_predicted)
 mae = mean_absolute_error(y, y_predicted)
-rmse = np.sqrt(mse)
+rmse = np.sqrt(mean_squared_error(y, y_predicted))
 
-print('Predict: MAE=%.4f , RMSE=%.4f , R2=%.4f'%(mae_SAMPL6,rmse_SAMPL6,r2_SAMPL6))
+print('Predict: MAE=%.4f , RMSE=%.4f , R2=%.4f'%(mae,rmse,r2))
 
 
 
