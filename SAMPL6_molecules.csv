@@ -1,0 +1,12 @@
+moleculars,SMILES,log_P
+SM02,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)C(F)(F)F,4.09
+SM04,c1ccc2c(c1)c(ncn2)NCc3ccc(cc3)Cl,3.98
+SM07,c1ccc(cc1)CNc2c3ccccc3ncn2,3.21
+SM08,Cc1ccc2c(c1)c(c(c(=O)[nH]2)CC(=O)O)c3ccccc3,3.1
+SM09,COc1cccc(c1)Nc2c3ccccc3ncn2,3.03
+SM11,c1ccc(cc1)n2c3c(cn2)c(ncn3)N,2.1
+SM12,c1ccc2c(c1)c(ncn2)Nc3cccc(c3)Cl,3.83
+SM13,Cc1cccc(c1)Nc2c3cc(c(cc3ncn2)OC)OC,2.92
+SM14,c1ccc(cc1)n2cnc3c2ccc(c3)N,1.95
+SM15,c1ccc2c(c1)ncn2c3ccc(cc3)O,3.07
+SM16,c1cc(c(c(c1)Cl)C(=O)Nc2ccncc2)Cl,2.62
