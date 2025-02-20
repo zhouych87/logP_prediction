@@ -34,3 +34,5 @@ Predict: MAE=0.2689 , RMSE=0.3094 , R2=0.7845
 >
 
 
+## The folder of processingcode is how we build and train the model.
+
